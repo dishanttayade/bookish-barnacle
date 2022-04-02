@@ -5,6 +5,8 @@ const jsonParser = bodyParser.json();
 const User = require('../../models/user.model');
 const Class = require('../../models/class.model');
 const {nanoid} = require('nanoid');
+const classController = require('../controller/classController')
+
 
 router.get('/get/class/:classId', (req, res) => {
     const classId = req.params.classId;
@@ -12,6 +14,9 @@ router.get('/get/class/:classId', (req, res) => {
     .then(_class => res.json(_class))
     .catch(() => res.status(400).json("Something went wrong"))
 })
+
+//swagger all
+router.get('/getAllClasses', classController.getAllClasses);
 
 router.get("/get/created/:user", (req,res) => {
     const user = req.params.user;

@@ -24,3 +24,6 @@ paths:
                 type: array
                 items: 
                   type: string
+        '404':
+          description: Error
+          

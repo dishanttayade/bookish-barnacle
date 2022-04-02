@@ -22,6 +22,8 @@ const generateToken = () => {
 }
 
 
+//swagger all
+
 router.get("/getAllUsers", userController.getAllUsers);
 
 
