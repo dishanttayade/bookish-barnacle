@@ -4,6 +4,8 @@ const http = require('http');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const path = require('path');
+const swaggerUI = require('swagger-ui-express')
+const YAML = require('yamljs')
 
 //load the environment variable
 require('dotenv').config();
@@ -45,7 +47,13 @@ connection.once('open', () => {
     console.log("MongoDB database connection established successfully");
 })
 
+// Swagger
+const swaggerDocument = YAML.load('./swagger.yaml')
+app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
+
+
 //404 error handler
 app.use(function (req, res, next) {
 	res.status(404).sendFile(__dirname + "/error/404.html")
 })
+

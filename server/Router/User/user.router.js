@@ -7,6 +7,9 @@ const fs = require('fs');
 const sharp = require('sharp');
 const multer = require('multer');
 const path = require('path');
+const userController = require('../controller/userController')
+
+
 
 //Get Security key for token generating in .env file
 require('dotenv').config();
@@ -17,6 +20,11 @@ const generateToken = () => {
     const randomToken = require('random-token').create(SECURITY_KEY);
     return randomToken(50);
 }
+
+
+router.get("/getAllUsers", userController.getAllUsers);
+
+
 
 //get all users info(require security key)
 router.get('/', (req, res) => {
