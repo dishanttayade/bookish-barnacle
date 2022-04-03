@@ -6,6 +6,10 @@ const User = require('../../models/user.model');
 const Class = require('../../models/class.model');
 const Classwork = require('../../models/classwork.model');
 const {nanoid} = require('nanoid');
+const classworkController = require('../controller/classworkController')
+
+
+router.get('/getAllClassworks', classworkController.getAllClassworks);
 
 router.post('/create', jsonParser, (req, res) => {
     const {title, description, _class, type, author, duedate, token, options}  = req.body;
