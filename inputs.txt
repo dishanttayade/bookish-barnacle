@@ -1,0 +1,52 @@
+POST Inputs:
+
+
+Users : 
+
+
+{
+      "username": "user175",
+      "password": "dishantchaman",
+      "email": "user175@gmail.com",
+      "token": "dishanttayade"
+}
+
+{
+  "username": "twotwenty",
+  "password": "userpass",
+  "email": "twotwenty@gmail.com",
+  "token": "differenteverytime"
+}
+
+
+Classes:
+
+{
+  "title": "twothirty",
+  "description": "created at 2:30 am ",
+  "archived": true,
+  "teacher": [
+    "61db24a8a8023735e075a542"
+  ],
+  "students": [
+    "61db24d6a8023735e075a543",
+     "61dd017365621337685fcc1a"
+  ],
+  "owner": "61db24a8a8023735e075a542",
+  "code": "string123"
+}
+
+{
+  "title": "extraclass",
+  "description": "created at 2:35 am ",
+  "archived": true,
+  "teacher": [
+    "61db24a8a8023735e075a542"
+  ],
+  "students": [
+    "61db24d6a8023735e075a543",
+     "61dd017365621337685fcc1a"
+  ],
+  "owner": "61db24a8a8023735e075a542",
+  "code": "strin643"
+}

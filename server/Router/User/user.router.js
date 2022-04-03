@@ -23,22 +23,22 @@ const generateToken = () => {
 
 
 //swagger all
-
 router.get("/getAllUsers", userController.getAllUsers);
 
 router.get('/:id', getUsers, (req, res)=>{
     res.status(200).json(res.users);
 })
 
-router.post("/", async(res, req) => {
+router.post("/getAllUsers/", async(req, res) => {
     const data = new User({
         username: req.body.username,
         password: req.body.password,
-        email: req.body.email
+        email: req.body.email,
+        token: req.body.token
     })
     try{
         const newData = await data.save()
-        res.status(200).json("Users added.")
+        res.status(200).json(newData)
     }catch(err){
         res.status(400).json({message: err.message})
     }

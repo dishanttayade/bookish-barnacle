@@ -28,8 +28,8 @@ const UserSchema = new Schema({
     },
     token: {
         type: String,
-        required: true,
-        unique: true
+        required: false,
+        unique: false
     },
     archived_class: {
         type: Array,

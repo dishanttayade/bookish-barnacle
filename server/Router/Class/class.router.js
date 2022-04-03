@@ -16,7 +16,53 @@ router.get('/get/class/:classId', (req, res) => {
 })
 
 //swagger all
-router.get('/getAllClasses', classController.getAllClasses);
+router.get('/getAllClasses/', classController.getAllClasses);
+
+router.post('/getAllClasses/', async (req, res) => {
+    const data = new Class({
+        title: req.body.title,
+        description: req.body.description,
+        teacher: req.body.teacher,
+        students: req.body.students,
+        owner: req.body.owner,
+        code: req.body.code
+    })
+    try{
+        const newData = await data.save()
+        res.status(200).json(newData)
+    }catch(err){
+        res.status(400).json({ message: err.message})
+    }
+})
+
+router.get('/:id', getClasses, (req, res) =>{
+    res.status(200).json(res.classes)
+})
+
+router.delete('/:id', getClasses, async(req, res)=>{
+    try{
+        const deletedclass = await res.classes.remove()
+        res.status(200).json(deletedclass)
+    } catch(err) {
+        res.status(400).json({message: err.message})
+    }
+})
+
+
+async function getClasses(req, res, next){
+    let classes;
+    try{
+        classes = await Class.findById(req.params.id)
+        if(classes == null){
+            return res.status(400).json({message: "class does not exit."})
+        }
+    }catch(error){
+        res.status(500).json({message: error.message})
+    }
+    res.classes = classes
+    next()
+}
+
 
 router.get("/get/created/:user", (req,res) => {
     const user = req.params.user;

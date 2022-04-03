@@ -4,8 +4,9 @@ const http = require('http');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const path = require('path');
-const swaggerUI = require('swagger-ui-express')
-const YAML = require('yamljs')
+const swaggerUI = require('swagger-ui-express');
+const YAML = require('yamljs');
+const logger= require('morgan');
 
 //load the environment variable
 require('dotenv').config();
@@ -35,6 +36,7 @@ app.use('/users', userRouter)
 app.use('/class', classRouter)
 app.use('/classwork', classworkRouter)
 
+
 //listening to the port
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, ()=> console.log(`Server has started on port ${PORT}`));
@@ -46,6 +48,25 @@ const connection = mongoose.connection;
 connection.once('open', () => {
     console.log("MongoDB database connection established successfully");
 })
+
+//morgan
+// logger.token('id',function(req,res)=>{
+//     return req.id;
+// })
+
+// app.use(assignId);
+// function assignId(req,res,next){
+//     req.id=uuid();
+//     next();
+// }
+
+// app.use(logger('0 -:id'));
+// {
+//     stream: accessLogStream
+//     skip: function(req,res){return res.statusCode === 404}
+// }
+// ));
+
 
 // Swagger
 const swaggerDocument = YAML.load('./swagger.yaml')
