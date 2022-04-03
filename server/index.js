@@ -52,8 +52,8 @@ const swaggerDocument = YAML.load('./swagger.yaml')
 app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 
 
-//404 error handler
-app.use(function (req, res, next) {
-	res.status(404).sendFile(__dirname + "/error/404.html")
-})
+// //404 error handler
+// app.use(function (req, res, next) {
+// 	res.status(404).sendFile(__dirname + "/error/404.html")
+// })
 

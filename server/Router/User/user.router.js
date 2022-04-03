@@ -26,6 +26,73 @@ const generateToken = () => {
 
 router.get("/getAllUsers", userController.getAllUsers);
 
+router.get('/:id', getUsers, (req, res)=>{
+    res.status(200).json(res.users);
+})
+
+router.post("/", async(res, req) => {
+    const data = new User({
+        username: req.body.username,
+        password: req.body.password,
+        email: req.body.email
+    })
+    try{
+        const newData = await data.save()
+        res.status(200).json("Users added.")
+    }catch(err){
+        res.status(400).json({message: err.message})
+    }
+})
+
+router.patch('/:id', getUsers, async (req, res) => {
+    if(req.body.username != null){
+        res.users.username = req.body.username
+    }
+    if(req.body.password != null){
+        res.users.password = req.body.password
+    }
+    if(req.body.email != null){
+        res.users.email = req.body.email
+    }
+    if(req.body.profile_picture != null){
+        res.users.profile_picture = req.body.profile_picture
+    }
+    if(req.body.archived_class != null){
+        res.users.archived_class = req.body.archived_class
+    }
+
+    try{
+        const userupdate =  await res.users.save()
+            res.status(200).json("User data updated");
+    }catch(err){
+        res.status(400).json({message: err.message})
+    }
+})
+
+router.delete("/:id", getUsers, async(req, res)=>{
+    try {
+        await res.users.remove()
+        res.status(200).json({message: "User deleted successfully"})
+    }catch(error){
+        res.status(500).json({message: error.message})
+    }
+})
+
+
+
+async function getUsers(req, res, next) {
+    let users;
+    try{
+        users = await User.findById(req.params.id)
+        if(users == null){
+            return res.status(400).json({message: "users does not exist."})
+        }
+    }catch(error){
+        res.status(500).json({message: error.message})
+    }
+    res.users = users
+    next()
+}
 
 
 //get all users info(require security key)
