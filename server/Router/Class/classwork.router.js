@@ -8,8 +8,27 @@ const Classwork = require('../../models/classwork.model');
 const {nanoid} = require('nanoid');
 const classworkController = require('../controller/classworkController')
 
+// swagger
+router.get('/getAllClassworks/', classworkController.getAllClassworks);
 
-router.get('/getAllClassworks', classworkController.getAllClassworks);
+router.post('/getAllClassworks/', async (req, res) => {
+    const data = new Classwork({
+        title: req.body.title,
+        description: req.body.description,
+        class: req.body.class,
+        author: req.body.author,
+        types: req.body.types,
+    })
+    try{
+        const newData = await data.save()
+        res.status(200).json(newData)
+    }catch(err){
+        res.status(400).json({ message: err.message})
+    }
+})
+
+
+
 
 router.post('/create', jsonParser, (req, res) => {
     const {title, description, _class, type, author, duedate, token, options}  = req.body;
