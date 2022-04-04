@@ -28,6 +28,62 @@ router.post('/getAllClassworks/', async (req, res) => {
 })
 
 
+router.get('/:id', getClassWorks, (req, res) =>{
+    res.status(200).json(res.classworks)
+})
+
+router.delete('/:id', getClassWorks, async(req, res)=>{
+    try{
+        const deletedclasswork = await res.classworks.remove()
+        res.status(200).json(deletedclasswork)
+    } catch(err) {
+        res.status(400).json({message: err.message})
+    }
+})
+
+
+async function getClassWorks(req, res, next){
+    let classworks;
+    try{
+        classworks = await Classwork.findById(req.params.id)
+        if(classworks == null){
+            return res.status(400).json({message: "classwork does not exit."})
+        }
+    }catch(error){
+        res.status(500).json({message: error.message})
+    }
+    res.classworks = classworks
+    next()
+}
+
+
+
+router.patch('/:id', getClassWorks, async (req, res) => {
+    if(req.body.title != null){
+        res.classworks.title = req.body.title
+    }
+    if(req.body.description != null){
+        res.classworks.description = req.body.description
+    }
+    if(req.body.class != null){
+        res.classworks.class = req.body.class
+    }
+    if(req.body.author != null){
+        res.classworks.author = req.body.author
+    }
+    if(req.body.types != null){
+        res.classworks.types = req.body.types
+    }
+    
+    try{
+        const userupdate =  await res.classworks.save()
+            res.status(200).json("Classwork data updated");
+    }catch(err){
+        res.status(400).json({message: err.message})
+    }
+})
+
+
 
 
 router.post('/create', jsonParser, (req, res) => {

@@ -1,0 +1,6 @@
+access
+method:: GET 	 url:: /favicon.ico 	 host:: localhost 	status:: 404 	 content-length:: 150 	response-time:: 1.663 ms
+access
+method:: GET 	 url:: / 	 host:: localhost 	status:: 404 	 content-length:: 139 	response-time:: 0.369 ms
+access
+method:: GET 	 url:: / 	 host:: - 	status:: 404 	 content-length:: 139 	response-time:: 1.422 ms

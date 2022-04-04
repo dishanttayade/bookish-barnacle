@@ -48,6 +48,36 @@ router.delete('/:id', getClasses, async(req, res)=>{
     }
 })
 
+router.patch('/:id', getClasses, async (req, res) => {
+    if(req.body.title != null){
+        res.classes.title = req.body.title
+    }
+    if(req.body.description != null){
+        res.classes.description = req.body.description
+    }
+    if(req.body.archived != null){
+        res.classes.archived = req.body.archived
+    }
+    if(req.body.teacher != null){
+        res.classes.teacher = req.body.teacher
+    }
+    if(req.body.students != null){
+        res.classes.students = req.body.students
+    }
+    if(req.body.owner != null){
+        res.classes.owner = req.body.owner
+    }
+    if(req.body.code != null){
+        res.classes.code = req.body.code
+    }
+    
+    try{
+        const userupdate =  await res.classes.save()
+            res.status(200).json("User data updated");
+    }catch(err){
+        res.status(400).json({message: err.message})
+    }
+})
 
 async function getClasses(req, res, next){
     let classes;
