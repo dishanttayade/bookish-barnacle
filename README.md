@@ -5,6 +5,32 @@
 - Raghav Garg `S20190010148`
 - Khushi Pathak `S20190010091`
 
+# How to run this project?
+
+- To install the dependencies, run the following commands.
+    - Client directory :
+        `npm install`
+    - Server directory :
+        `npm install`
+
+- After installation, run the backend and frontend by entering following commands.
+    - Client directory :
+        `npm start`
+    - Server directory : 
+        `npm start`
+
+- Application Links
+    - Frontend
+        `http://localhost:3000/`
+    - Backend
+        `http://localhost:5000/`
+    - Swagger 
+        `http://localhost:5000/api-docs/`
+
+- Github links
+    - https://github.com/dishanttayade/bookish-barnacle.git
+
+
 # Classroom Management App
 
 Classroom is an app which provides teachers and students an environment where 
@@ -31,20 +57,6 @@ Classroom is an app which provides teachers and students an environment where
     - answer the questions of all types mentioned above
     - ask questions if given access by teacher
     - unenroll a classroom
-
-# How to run this project?
-
-- To install the dependencies, run the following commands.
-    - Client directory :
-        `npm install`
-    - Server directory :
-        `npm install`
-
-- After installation, run the backend and frontend by entering following commands.
-    - Client directory :
-        `npm start`
-    - Server directory : 
-        `npm start`
 
 
 
