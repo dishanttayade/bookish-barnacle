@@ -73,10 +73,10 @@ Classroom is an app which provides teachers and students an environment where
       - SignUp/ Signup ( as SignUp have component for login too ).
       
       
-   - QUIZ PAGE
+   <!-- - QUIZ PAGE
      ![image](https://user-images.githubusercontent.com/70201987/148691900-93ed3d1d-5663-4f5a-a594-a24dbaa92ee8.png)
      ![image](https://user-images.githubusercontent.com/70201987/148691911-54fc586d-27b9-4b68-bb4e-cbcfda4a903a.png)
-    ![image](https://user-images.githubusercontent.com/70201987/148691924-919df023-4cb5-4959-a95d-4cd81ee7bd78.png)
+    ![image](https://user-images.githubusercontent.com/70201987/148691924-919df023-4cb5-4959-a95d-4cd81ee7bd78.png) -->
 
 
    -Feature that are added:
