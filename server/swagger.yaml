@@ -166,6 +166,23 @@ paths:
                 items: 
                   type: string
 
+    post:
+      summary: add a classwork
+      tags: [Classwork]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Classwork'
+      responses:
+        '200':
+          description: created classwork
+        '400':
+          description: error
+
+
+
 
 components:
   schemas:
@@ -219,3 +236,43 @@ components:
           type: string
         code:
           type: string
+
+    Classwork:
+      type: object
+      required: 
+        - title
+        - description
+        - class
+        - author
+        - types
+
+      properties:
+        title:
+          type: string
+        description:
+          type: string
+        class:
+          type: object
+          properties:
+            id:
+              type: string  
+        author:
+          type: object
+          properties:
+            id:
+              type: string
+        types:
+          type: string
+          enum: ['material', 'short answer', 'long answer', 'multiple choice', 'checkbox']
+        answer:
+          type: array
+          items:
+            type: string
+        duedate:
+          type: date
+          pattern: /([0-9]{4})-(?:[0-9]{2})-([0-9]{2})/
+        options:
+          type: array
+          items:
+            type: string
+        

@@ -50,3 +50,28 @@ Classes:
   "owner": "61db24a8a8023735e075a542",
   "code": "strin643"
 }
+
+
+
+
+Classwork
+
+{
+  "answer": [],
+  "options": [
+    "5",
+    "10",
+    "50",
+    "45"
+  ],
+  "_id": "61dafa375e71f4469051864a",
+  "title": "MCQ 1",
+  "description": "How many students in this class?",
+  "class": "61d991f14ba7465304ccc5ae",
+  "types": "multiple choice",
+  "duedate": null,
+  "author": "61d9919c4ba7465304ccc5ad",
+  "createdAt": "2022-01-09T15:07:35.357Z",
+  "updatedAt": "2022-01-09T15:07:35.357Z",
+  "__v": 0
+}
