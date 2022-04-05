@@ -85,6 +85,38 @@ router.patch('/:id', getClassWorks, async (req, res) => {
 
 
 
+router.get('/:id', getClassWorks, (req, res) =>{
+    res.status(200).json(res.classworks)
+})
+
+router.delete('/:id', getClassWorks, async(req, res)=>{
+    try{
+        const deletedclasswork = await res.classworks.remove()
+        res.status(200).json(deletedclasswork)
+    } catch(err) {
+        res.status(400).json({message: err.message})
+    }
+})
+
+
+async function getClassWorks(req, res, next){
+    let classworks;
+    try{
+        classworks = await Classwork.findById(req.params.id)
+        if(classworks == null){
+            return res.status(400).json({message: "classwork does not exit."})
+        }
+    }catch(error){
+        res.status(500).json({message: error.message})
+    }
+    res.classworks = classworks
+    next()
+}
+
+
+// ----------------------------------
+
+
 
 router.post('/create', jsonParser, (req, res) => {
     const {title, description, _class, type, author, duedate, token, options}  = req.body;
