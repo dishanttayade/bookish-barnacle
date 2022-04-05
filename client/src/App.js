@@ -13,14 +13,14 @@ import LongAnswer from "./Components/Classwork/long-answer.classwork";
 import Material from "./Components/Classwork/material.classwork";
 import MultipleChoice from "./Components/Classwork/multiple-choice.classwork";
 import ShortAnswer from "./Components/Classwork/short-asnwer.classwork";
-import ZeroFourZero from "./Components/Error/404.component";
+// import ZeroFourZero from "./Components/Error/404.component";
 import Home from "./Components/home.component";
 import Login from "./Components/login.component";
 import Logout from "./Components/logout.component";
 import EditProfile from "./Components/Profile/edit_profile.component";
 import Profile from "./Components/Profile/profile.component";
 import Register from "./Components/register.component";
-import QuizApp from "./quiz/QuizApp";
+// import QuizApp from "./quiz/QuizApp";
 
 const App = () => (
     <Router>
@@ -42,7 +42,7 @@ const App = () => (
             <Route path = "/class/:classId/setting" component = {ClassSetting} />
             <Route path = "/class/:classId/people" component = {People} />
             <Route path = "/class/:classId" component = {Class} />
-            <Route path = "/quizapp" component={QuizApp} />
+            {/* <Route path = "/quizapp" component={QuizApp} /> */}
             {/* <Route path = "*" component = {ZeroFourZero} /> */}
         </Switch>
     </Router>

@@ -58,7 +58,7 @@ const HomeNavbar = () => {
                     }else return null;
                 })}
                 <NavLink to = "/archived" className="sidenav-title">Archived Class</NavLink>
-                <NavLink to = "/quizapp" className="sidenav-title">Quiz App</NavLink>
+                {/* <NavLink to = "/quizapp" className="sidenav-title">Quiz App</NavLink> */}
             </div>
             <span className="nav-logo  nav-ham" onClick = {openNav}>☰</span>
             <p className="nav-logo nav-ham" onClick = {() => window.location = "/"}>Classroom</p>

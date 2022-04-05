@@ -18,6 +18,13 @@ Users :
   "token": "differenteverytime"
 }
 
+  patch:  
+    {
+      "username": "string1",
+      "password": "anewone",
+      "email": "string1",
+      "token": "string1"
+    }
 
 Classes:
 
@@ -51,6 +58,22 @@ Classes:
   "code": "strin643"
 }
 
+patch: 
+
+624a0bf75c85a00c20f045b8
+{
+      "teacher": [
+        "61db24a8a8023735e075a542"
+      ],
+      "students": [
+        "61db24d6a8023735e075a543",
+        "61dd017365621337685fcc1a"
+      ],
+      "title": "twothirty1",
+      "description": "created at 2:30 am and its submission time",
+      "owner": "61db24a8a8023735e075a542",
+      "code": "string123"    
+}
 
 
 
@@ -64,14 +87,27 @@ Classwork:
     "50",
     "45"
   ],
-  "_id": "61dafa375e71f4469051864a",
+ 
   "title": "MCQ 1",
   "description": "How many students in this class?",
   "class": "61d991f14ba7465304ccc5ae",
   "types": "multiple choice",
   "duedate": null,
+  "author": "61d9919c4ba7465304ccc5ad"
+}
+
+patch
+624ae21d2abad21fccde65b1
+{
+  "answer": [],
+  "options": [],
+  "_id": "624ae21d2abad21fccde65b1",
+  "title": "MCQ 112",
+  "description": "dishant ne update kiya ",
+  "class": "61d991f14ba7465304ccc5ae",
   "author": "61d9919c4ba7465304ccc5ad",
-  "createdAt": "2022-01-09T15:07:35.357Z",
-  "updatedAt": "2022-01-09T15:07:35.357Z",
+  "types": "multiple choice",
+  "createdAt": "2022-04-04T12:18:37.360Z",
+  "updatedAt": "2022-04-04T16:53:34.508Z",
   "__v": 0
 }
