@@ -32,6 +32,17 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, "/public/")));
 
 
+
+morgan.token('host', function (req, res) {
+    return req.hostname
+})
+
+// app.use(morgan('combined'))
+let logsinfo = fsr.getStream({ filename: "./logfiles/classroomlog-%DATE%.log", frequency: "60m", verbose: true, date_format: "YYYY-MM-DD" });
+app.use(morgan({ stream: logsinfo }))
+app.use(morgan('method:: :method \t url:: :url \t host:: :host \tstatus:: :status \t content-length:: :res[content-length] \tresponse-time:: :response-time ms', { stream: logsinfo }));
+
+
 //including routers
 const userRouter = require('./Router/User/user.router');
 const classRouter = require('./Router/Class/class.router');
@@ -75,16 +86,6 @@ connection.once('open', () => {
 // Swagger
 const swaggerDocument = YAML.load('./swagger.yaml')
 app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
-
-
-morgan.token('host', function (req, res) {
-    return req.hostname
-})
-
-// app.use(morgan('combined'))
-let logsinfo = fsr.getStream({ filename: "./logfiles/classroomlog-%DATE%.log", frequency: "60m", verbose: true, date_format: "YYYY-MM-DD" });
-app.use(morgan('access', { stream: logsinfo }))
-app.use(morgan('method:: :method \t url:: :url \t host:: :host \tstatus:: :status \t content-length:: :res[content-length] \tresponse-time:: :response-time ms', { stream: logsinfo }));
 
 
 // //404 error handler

@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: Sample API
+  title: Classroom App API
   description: Optional multiline or single-line description in [CommonMark](http://commonmark.org/help/) or HTML.
   version: 0.1.9
 servers:
@@ -71,9 +71,9 @@ paths:
             type: string
       responses:
         '200':
-          description: Deleted
+          description: User deleted from backend
         '400':
-          description: Does not exist
+          description: User does not exist.
         '500':
           description: Error
 
@@ -97,7 +97,7 @@ paths:
         '200':
           description: User updated successfully.
         '400':
-          description: Does not exist
+          description: User does not exist.
         '500':
           description: Error
 
@@ -128,7 +128,7 @@ paths:
               $ref: '#/components/schemas/Class'
       responses:
         '200':
-          description: Created successfully
+          description: Class created successfully.
         '400':
           description: Error
 
@@ -148,11 +148,11 @@ paths:
             type: string
       responses:
         '200':
-          description: Get successfully
+          description: Retrived the class information successfully.
         '400':
-          description: Couldn't find it
+          description: Class does not exist.
         '500':
-          description: Cast to classId failed for value
+          description: Cast to classId failed for value.
 
     delete:
         summary: Deletes a class
@@ -166,9 +166,9 @@ paths:
               type: string
         responses:
           '200':
-            description: Deleted the class
+            description: Class is deleted successfully.
           '400':
-            description: Couldn't find the class
+            description: Class does not exist.
           '500':
             description: Error
       
@@ -192,7 +192,7 @@ paths:
         '200':
           description: Class information updated successfully.
         '400':
-          description: Doesn't exist.
+          description: Class doesn't exist.
         '500':
           description: Error
 
@@ -244,7 +244,7 @@ paths:
         '200':
           description: Successfully get the classwork.
         '400':
-          description: Couldn't find it
+          description: Classwork doesn't exist.
         '500':
           description: Cast to classworkId failed for value.
 
