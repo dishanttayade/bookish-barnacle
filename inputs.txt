@@ -18,6 +18,14 @@ Users :
   "token": "differenteverytime"
 }
 
+
+{
+      "username": "newstudent1132",
+      "password": "password",
+      "email": "newstudent123@gmail.com",
+      "token": "6A9EDB43489DB85BBDBBA1E4CAD9DHJNKDCD59DED3EC9C47"
+}
+
   patch:  
     {
       "username": "string1",
@@ -25,6 +33,14 @@ Users :
       "email": "string1",
       "token": "string1"
     }
+
+{
+      "username": "newstud32",
+      "password": "passrd",
+      "email": "newstudss@gmail.com",
+      "token": "6A9EDB43489DB85BBDBBA1E4CAD9DHJNKDCD59DED3EC9C47"
+}
+
 
 Classes:
 
