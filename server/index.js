@@ -55,10 +55,11 @@ app.use('/classwork', classworkRouter)
 //listening to the port
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, ()=> console.log(`Server has started on port ${PORT}`));
+console.log(`http://localhost:${PORT}/`);
 
 //connect to mongodb database
-const URI = process.env.ATLAS_URI;
-mongoose.connect(URI, {useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true});
+const URI = `mongodb+srv://${process.env.USER}:${process.env.PASS}@cluster0.hikpg.mongodb.net/classroom?retryWrites=true&w=majorit`;
+mongoose.connect(process.env.ATLAS_URI, {useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true});
 const connection = mongoose.connection;
 connection.once('open', () => {
     console.log("MongoDB database connection established successfully");
