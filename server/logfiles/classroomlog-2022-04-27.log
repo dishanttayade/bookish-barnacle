@@ -1,0 +1,440 @@
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 19:35:26 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 4374.481 ms
+::1 - - [Tue, 26 Apr 2022 19:58:14 GMT] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/ 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 4.588 ms
+::1 - - [Tue, 26 Apr 2022 19:58:15 GMT] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/swagger-ui-init.js 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 0.741 ms
+::1 - - [Tue, 26 Apr 2022 19:58:15 GMT] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/swagger-ui-bundle.js 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 35.982 ms
+::1 - - [Tue, 26 Apr 2022 19:58:15 GMT] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/swagger-ui-standalone-preset.js 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 157.475 ms
+::1 - - [Tue, 26 Apr 2022 19:58:15 GMT] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/swagger-ui.css 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 184.462 ms
+::1 - - [Tue, 26 Apr 2022 19:58:26 GMT] "GET /users/getAllUsers/ HTTP/1.1" 200 927 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /users/getAllUsers/ 	 host:: localhost 	status:: 200 	 content-length:: 927 	response-time:: 479.769 ms
+::1 - - [Tue, 26 Apr 2022 19:59:23 GMT] "GET /users/62677acb7da7a30021dc5d42 HTTP/1.1" 200 324 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: localhost 	status:: 200 	 content-length:: 324 	response-time:: 590.696 ms
+::1 - - [Tue, 26 Apr 2022 19:59:56 GMT] "GET /class/getAllClasses/ HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /class/getAllClasses/ 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 366.318 ms
+::1 - - [Tue, 26 Apr 2022 19:59:59 GMT] "GET /class/getAllClasses/ HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /class/getAllClasses/ 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 296.010 ms
+::1 - - [Tue, 26 Apr 2022 20:01:42 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: localhost 	status:: 200 	 content-length:: 320 	response-time:: 454.282 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:03:11 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 9616.156 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:03:11 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 572.178 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:05:53 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 9839.242 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:05:53 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 557.792 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:08:05 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 9291.213 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:08:06 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 569.504 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:12:32 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 9916.279 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:12:33 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 631.460 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:14:50 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 9136.770 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:14:51 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 587.154 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:17:20 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 9089.981 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:17:20 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 593.757 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:19:29 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 9056.982 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:19:30 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 538.720 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:20:35 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 9604.381 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:20:36 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 606.118 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:24:41 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 10202.754 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:24:42 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 688.951 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:26:22 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 9613.080 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:26:22 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 620.666 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:27:58 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 10797.151 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:27:58 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 629.353 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:30:05 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 9065.894 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:30:06 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 585.037 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:33:59 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 9160.267 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:33:59 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 609.352 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:37:35 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 9125.774 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:37:36 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 572.249 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:38:25 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 8874.290 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:38:26 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 538.717 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:39:53 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 10187.714 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:39:53 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 613.956 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:40:35 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 9761.238 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:40:35 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 628.901 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:41:13 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 9606.691 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:41:13 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 589.470 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:41:30 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3972 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3972 	response-time:: 3612.650 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:41:31 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 505.718 ms
+::1 - - [Tue, 26 Apr 2022 20:45:48 GMT] "POST /class/getAllClasses/ HTTP/1.1" 200 362 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: POST 	 url:: /class/getAllClasses/ 	 host:: localhost 	status:: 200 	 content-length:: 362 	response-time:: 8643.583 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:53:19 GMT] "GET /class/getAllClasses HTTP/1.1" 200 4335 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 4335 	response-time:: 9251.352 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:53:20 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 490.550 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:55:11 GMT] "GET /class/getAllClasses HTTP/1.1" 200 4335 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 4335 	response-time:: 8883.745 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:55:11 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 583.805 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:59:25 GMT] "GET /class/getAllClasses HTTP/1.1" 200 4335 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 4335 	response-time:: 9365.183 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 20:59:25 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 631.905 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:04:17 GMT] "GET /class/getAllClasses HTTP/1.1" 200 4335 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 4335 	response-time:: 9206.928 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:04:18 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 612.989 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:06:11 GMT] "GET /class/getAllClasses HTTP/1.1" 200 4335 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 4335 	response-time:: 9170.071 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:06:12 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 601.083 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:06:13 GMT] "POST /class/getAllClasses HTTP/1.1" 400 121 "-" "node-superagent/3.8.3"
+method:: POST 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 400 	 content-length:: 121 	response-time:: 435.102 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:10:24 GMT] "GET /class/getAllClasses HTTP/1.1" 200 4335 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 4335 	response-time:: 9311.349 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:10:25 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 589.240 ms
+::1 - - [Tue, 26 Apr 2022 21:12:10 GMT] "PATCH /class/624a0bf75c85a00c20f045b8 HTTP/1.1" 200 19 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: PATCH 	 url:: /class/624a0bf75c85a00c20f045b8 	 host:: localhost 	status:: 200 	 content-length:: 19 	response-time:: 995.169 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:16:02 GMT] "GET /class/getAllClasses HTTP/1.1" 200 4335 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 4335 	response-time:: 9647.850 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:16:02 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 486.638 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:16:03 GMT] "PATCH /class/624a0bf75c85a00c20f045b8 HTTP/1.1" 200 19 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /class/624a0bf75c85a00c20f045b8 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 19 	response-time:: 839.670 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:16:46 GMT] "GET /class/getAllClasses HTTP/1.1" 200 4332 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 4332 	response-time:: 4190.255 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:16:46 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 572.768 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:16:47 GMT] "PATCH /class/624a0bf75c85a00c20f045b8 HTTP/1.1" 200 19 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /class/624a0bf75c85a00c20f045b8 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 19 	response-time:: 755.131 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:24:59 GMT] "GET /class/getAllClasses HTTP/1.1" 200 4332 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 4332 	response-time:: 9044.176 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:25:00 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 566.308 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:25:00 GMT] "GET /users/getAllUsers/ HTTP/1.1" 200 927 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/getAllUsers/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 927 	response-time:: 289.010 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:25:01 GMT] "PATCH /class/624a0bf75c85a00c20f045b8 HTTP/1.1" 200 19 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /class/624a0bf75c85a00c20f045b8 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 19 	response-time:: 592.326 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:25:01 GMT] "GET /users/62677acb7da7a30021dc5d42 HTTP/1.1" 200 324 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 324 	response-time:: 301.966 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:25:02 GMT] "PATCH /users/62677acb7da7a30021dc5d42 HTTP/1.1" 200 19 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 19 	response-time:: 909.467 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:33:28 GMT] "GET /class/getAllClasses HTTP/1.1" 200 4332 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 4332 	response-time:: 9758.789 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:33:29 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 524.195 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:33:30 GMT] "PATCH /class/624a0bf75c85a00c20f045b8 HTTP/1.1" 200 19 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /class/624a0bf75c85a00c20f045b8 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 19 	response-time:: 870.794 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:33:30 GMT] "GET /users/getAllUsers/ HTTP/1.1" 200 917 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/getAllUsers/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 917 	response-time:: 1167.818 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:33:30 GMT] "GET /users/62677acb7da7a30021dc5d42 HTTP/1.1" 200 314 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 314 	response-time:: 292.731 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:33:31 GMT] "GET /classwork/getAllClassworks/ HTTP/1.1" 200 17545 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/getAllClassworks/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 17545 	response-time:: 613.516 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:33:31 GMT] "PATCH /users/62677acb7da7a30021dc5d42 HTTP/1.1" 200 19 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 19 	response-time:: 723.791 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:33:31 GMT] "GET /classwork/624ae21d2abad21fccde65b1 HTTP/1.1" 400 38 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/624ae21d2abad21fccde65b1 	 host:: 127.0.0.1 	status:: 400 	 content-length:: 38 	response-time:: 274.532 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:33:32 GMT] "PATCH /classwork/624ae21d2abad21fccde65b1 HTTP/1.1" 400 38 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /classwork/624ae21d2abad21fccde65b1 	 host:: 127.0.0.1 	status:: 400 	 content-length:: 38 	response-time:: 404.162 ms
+::1 - - [Tue, 26 Apr 2022 21:35:50 GMT] "GET /classwork/624ae21d2abad21fccde65b1 HTTP/1.1" 400 38 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /classwork/624ae21d2abad21fccde65b1 	 host:: localhost 	status:: 400 	 content-length:: 38 	response-time:: 510.685 ms
+::1 - - [Tue, 26 Apr 2022 21:36:05 GMT] "PATCH /classwork/624ae21d2abad21fccde65b1 HTTP/1.1" 400 38 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: PATCH 	 url:: /classwork/624ae21d2abad21fccde65b1 	 host:: localhost 	status:: 400 	 content-length:: 38 	response-time:: 288.021 ms
+::1 - - [Tue, 26 Apr 2022 21:36:17 GMT] "GET /classwork/getAllClassworks/ HTTP/1.1" 200 17545 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /classwork/getAllClassworks/ 	 host:: localhost 	status:: 200 	 content-length:: 17545 	response-time:: 831.667 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:37:11 GMT] "GET /class/getAllClasses HTTP/1.1" 200 4332 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 4332 	response-time:: 9371.705 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:37:11 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 572.038 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:37:12 GMT] "GET /users/getAllUsers/ HTTP/1.1" 200 917 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/getAllUsers/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 917 	response-time:: 314.426 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:37:12 GMT] "PATCH /class/624a0bf75c85a00c20f045b8 HTTP/1.1" 200 19 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /class/624a0bf75c85a00c20f045b8 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 19 	response-time:: 622.887 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:37:12 GMT] "GET /users/62677acb7da7a30021dc5d42 HTTP/1.1" 200 314 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 314 	response-time:: 293.149 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:37:13 GMT] "GET /classwork/getAllClassworks/ HTTP/1.1" 200 17545 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/getAllClassworks/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 17545 	response-time:: 590.527 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:37:13 GMT] "GET /classwork/o8nVSoYs9xbFsP5Gkv_k HTTP/1.1" 200 126 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/o8nVSoYs9xbFsP5Gkv_k 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 126 	response-time:: 5.850 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:37:13 GMT] "PATCH /classwork/o8nVSoYs9xbFsP5Gkv_k HTTP/1.1" 500 126 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /classwork/o8nVSoYs9xbFsP5Gkv_k 	 host:: 127.0.0.1 	status:: 500 	 content-length:: 126 	response-time:: 0.906 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:37:13 GMT] "PATCH /users/62677acb7da7a30021dc5d42 HTTP/1.1" 200 19 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 19 	response-time:: 858.744 ms
+::1 - - [Tue, 26 Apr 2022 21:38:19 GMT] "GET /classwork/o8nVSoYs9xbFsP5Gkv_k HTTP/1.1" 200 126 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /classwork/o8nVSoYs9xbFsP5Gkv_k 	 host:: localhost 	status:: 200 	 content-length:: 126 	response-time:: 17.736 ms
+::1 - - [Tue, 26 Apr 2022 21:38:22 GMT] "GET /classwork/o8nVSoYs9xbFsP5Gkv_k HTTP/1.1" 200 126 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /classwork/o8nVSoYs9xbFsP5Gkv_k 	 host:: localhost 	status:: 200 	 content-length:: 126 	response-time:: 2.559 ms
+::1 - - [Tue, 26 Apr 2022 21:38:23 GMT] "GET /classwork/o8nVSoYs9xbFsP5Gkv_k HTTP/1.1" 200 126 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /classwork/o8nVSoYs9xbFsP5Gkv_k 	 host:: localhost 	status:: 200 	 content-length:: 126 	response-time:: 1.525 ms
+::1 - - [Tue, 26 Apr 2022 21:38:23 GMT] "GET /classwork/o8nVSoYs9xbFsP5Gkv_k HTTP/1.1" 200 126 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /classwork/o8nVSoYs9xbFsP5Gkv_k 	 host:: localhost 	status:: 200 	 content-length:: 126 	response-time:: 1.143 ms
+::1 - - [Tue, 26 Apr 2022 21:38:24 GMT] "GET /classwork/o8nVSoYs9xbFsP5Gkv_k HTTP/1.1" 200 126 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /classwork/o8nVSoYs9xbFsP5Gkv_k 	 host:: localhost 	status:: 200 	 content-length:: 126 	response-time:: 1.370 ms
+::1 - - [Tue, 26 Apr 2022 21:38:29 GMT] "GET /classwork/o8nVSoYs9xbFsP5Gkv_k HTTP/1.1" 200 126 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /classwork/o8nVSoYs9xbFsP5Gkv_k 	 host:: localhost 	status:: 200 	 content-length:: 126 	response-time:: 1.381 ms
+::1 - - [Tue, 26 Apr 2022 21:39:58 GMT] "GET /classwork/o8nVSoYs9xbFsP5Gkv_k HTTP/1.1" 200 126 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /classwork/o8nVSoYs9xbFsP5Gkv_k 	 host:: localhost 	status:: 200 	 content-length:: 126 	response-time:: 2.061 ms
+::1 - - [Tue, 26 Apr 2022 21:40:01 GMT] "GET /classwork/o8nVSoYs9xbFsP5Gkv_k HTTP/1.1" 200 126 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /classwork/o8nVSoYs9xbFsP5Gkv_k 	 host:: localhost 	status:: 200 	 content-length:: 126 	response-time:: 1.306 ms
+::1 - - [Tue, 26 Apr 2022 21:40:15 GMT] "GET /classwork/getAllClassworks/ HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /classwork/getAllClassworks/ 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 839.839 ms
+::1 - - [Tue, 26 Apr 2022 21:41:39 GMT] "GET /classwork/624ae21d2abad21fccde65b1 HTTP/1.1" 400 38 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /classwork/624ae21d2abad21fccde65b1 	 host:: localhost 	status:: 400 	 content-length:: 38 	response-time:: 1721.613 ms
+::1 - - [Tue, 26 Apr 2022 21:42:30 GMT] "POST /classwork/getAllClassworks/ HTTP/1.1" 200 308 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: POST 	 url:: /classwork/getAllClassworks/ 	 host:: localhost 	status:: 200 	 content-length:: 308 	response-time:: 469.117 ms
+::1 - - [Tue, 26 Apr 2022 21:42:52 GMT] "GET /classwork/getAllClassworks/ HTTP/1.1" 200 17854 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /classwork/getAllClassworks/ 	 host:: localhost 	status:: 200 	 content-length:: 17854 	response-time:: 642.618 ms
+::1 - - [Tue, 26 Apr 2022 21:43:02 GMT] "GET /classwork/62686745d452d11ed0b27266 HTTP/1.1" 200 308 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /classwork/62686745d452d11ed0b27266 	 host:: localhost 	status:: 200 	 content-length:: 308 	response-time:: 532.449 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:43:50 GMT] "GET /class/getAllClasses HTTP/1.1" 200 4332 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 4332 	response-time:: 9171.002 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:43:50 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 581.745 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:43:51 GMT] "GET /users/getAllUsers/ HTTP/1.1" 200 917 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/getAllUsers/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 917 	response-time:: 296.515 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:43:51 GMT] "PATCH /class/624a0bf75c85a00c20f045b8 HTTP/1.1" 200 19 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /class/624a0bf75c85a00c20f045b8 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 19 	response-time:: 740.911 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:43:51 GMT] "GET /users/62677acb7da7a30021dc5d42 HTTP/1.1" 200 314 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 314 	response-time:: 431.575 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:43:52 GMT] "GET /classwork/getAllClassworks/ HTTP/1.1" 200 17854 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/getAllClassworks/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 17854 	response-time:: 524.323 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:43:52 GMT] "PATCH /users/62677acb7da7a30021dc5d42 HTTP/1.1" 200 19 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 19 	response-time:: 899.836 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:43:52 GMT] "GET /classwork/62686745d452d11ed0b27266 HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/62686745d452d11ed0b27266 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 308 	response-time:: 356.594 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:43:53 GMT] "PATCH /classwork/62686745d452d11ed0b27266 HTTP/1.1" 200 24 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /classwork/62686745d452d11ed0b27266 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 24 	response-time:: 725.978 ms
+::1 - - [Tue, 26 Apr 2022 21:51:03 GMT] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/ 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 56.713 ms
+::1 - - [Tue, 26 Apr 2022 21:51:03 GMT] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/swagger-ui-init.js 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 1.424 ms
+::1 - - [Tue, 26 Apr 2022 21:51:03 GMT] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/swagger-ui.css 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 112.301 ms
+::1 - - [Tue, 26 Apr 2022 21:51:03 GMT] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/swagger-ui-bundle.js 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 114.310 ms
+::1 - - [Tue, 26 Apr 2022 21:51:03 GMT] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/swagger-ui-standalone-preset.js 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 1.279 ms
+::1 - - [Tue, 26 Apr 2022 21:51:08 GMT] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/favicon-32x32.png 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 447.231 ms
+::1 - - [Tue, 26 Apr 2022 21:54:26 GMT] "GET /class/getAllClasses/ HTTP/1.1" 200 4332 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /class/getAllClasses/ 	 host:: localhost 	status:: 200 	 content-length:: 4332 	response-time:: 387.587 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:14 GMT] "GET /class/getAllClasses HTTP/1.1" 200 4332 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 4332 	response-time:: 10096.762 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:14 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 391.761 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:15 GMT] "GET /class/624a0bf75c85a00c20f045b8 HTTP/1.1" 200 374 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/624a0bf75c85a00c20f045b8 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 374 	response-time:: 417.353 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:15 GMT] "PATCH /class/624a0bf75c85a00c20f045b8 HTTP/1.1" 200 19 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /class/624a0bf75c85a00c20f045b8 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 19 	response-time:: 745.823 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:15 GMT] "GET /users/getAllUsers/ HTTP/1.1" 200 917 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/getAllUsers/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 917 	response-time:: 298.814 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:16 GMT] "GET /users/62677acb7da7a30021dc5d42 HTTP/1.1" 200 314 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 314 	response-time:: 261.434 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:16 GMT] "GET /classwork/getAllClassworks/ HTTP/1.1" 200 17862 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/getAllClassworks/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 17862 	response-time:: 633.337 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:17 GMT] "GET /classwork/62686745d452d11ed0b27266 HTTP/1.1" 200 316 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/62686745d452d11ed0b27266 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 316 	response-time:: 307.554 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:17 GMT] "PATCH /users/62677acb7da7a30021dc5d42 HTTP/1.1" 200 19 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 19 	response-time:: 1267.268 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:17 GMT] "PATCH /classwork/62686745d452d11ed0b27266 HTTP/1.1" 200 24 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /classwork/62686745d452d11ed0b27266 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 24 	response-time:: 540.621 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:47 GMT] "GET /class/getAllClasses HTTP/1.1" 200 4332 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 4332 	response-time:: 8972.962 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:48 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 556.207 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:48 GMT] "PATCH /class/624a0bf75c85a00c20f045b8 HTTP/1.1" 200 19 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /class/624a0bf75c85a00c20f045b8 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 19 	response-time:: 619.645 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:48 GMT] "DELETE /class/624a0bf75c85a00c20f045b8 HTTP/1.1" 200 374 "-" "node-superagent/3.8.3"
+method:: DELETE 	 url:: /class/624a0bf75c85a00c20f045b8 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 374 	response-time:: 636.753 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:49 GMT] "GET /users/getAllUsers/ HTTP/1.1" 200 917 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/getAllUsers/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 917 	response-time:: 290.159 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:49 GMT] "GET /users/62677acb7da7a30021dc5d42 HTTP/1.1" 200 314 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 314 	response-time:: 387.947 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:50 GMT] "GET /classwork/getAllClassworks/ HTTP/1.1" 200 17862 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/getAllClassworks/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 17862 	response-time:: 626.813 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:50 GMT] "PATCH /users/62677acb7da7a30021dc5d42 HTTP/1.1" 200 19 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 19 	response-time:: 712.151 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:50 GMT] "GET /classwork/62686745d452d11ed0b27266 HTTP/1.1" 200 316 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/62686745d452d11ed0b27266 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 316 	response-time:: 496.385 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:56:51 GMT] "PATCH /classwork/62686745d452d11ed0b27266 HTTP/1.1" 200 24 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /classwork/62686745d452d11ed0b27266 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 24 	response-time:: 673.037 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:58:35 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3957 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3957 	response-time:: 3949.272 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:58:36 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 604.662 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:58:36 GMT] "PATCH /class/624a0bf75c85a00c20f045b8 HTTP/1.1" 400 34 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /class/624a0bf75c85a00c20f045b8 	 host:: 127.0.0.1 	status:: 400 	 content-length:: 34 	response-time:: 254.189 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:58:36 GMT] "DELETE /class/624a0bf75c85a00c20f045b8 HTTP/1.1" 400 34 "-" "node-superagent/3.8.3"
+method:: DELETE 	 url:: /class/624a0bf75c85a00c20f045b8 	 host:: 127.0.0.1 	status:: 400 	 content-length:: 34 	response-time:: 409.966 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:58:37 GMT] "GET /users/getAllUsers/ HTTP/1.1" 200 917 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/getAllUsers/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 917 	response-time:: 383.583 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:58:37 GMT] "GET /users/62677acb7da7a30021dc5d42 HTTP/1.1" 200 314 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 314 	response-time:: 306.233 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:58:38 GMT] "DELETE /users/62677acb7da7a30021dc5d42 HTTP/1.1" 200 39 "-" "node-superagent/3.8.3"
+method:: DELETE 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 39 	response-time:: 560.066 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:58:38 GMT] "PATCH /users/62677acb7da7a30021dc5d42 HTTP/1.1" 400 97 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: 127.0.0.1 	status:: 400 	 content-length:: 97 	response-time:: 809.971 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:58:39 GMT] "GET /classwork/getAllClassworks/ HTTP/1.1" 200 17862 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/getAllClassworks/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 17862 	response-time:: 679.382 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:58:39 GMT] "GET /classwork/62686745d452d11ed0b27266 HTTP/1.1" 200 316 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/62686745d452d11ed0b27266 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 316 	response-time:: 461.158 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:58:40 GMT] "DELETE /classwork/62686745d452d11ed0b27266 HTTP/1.1" 200 316 "-" "node-superagent/3.8.3"
+method:: DELETE 	 url:: /classwork/62686745d452d11ed0b27266 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 316 	response-time:: 755.831 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 21:58:40 GMT] "PATCH /classwork/62686745d452d11ed0b27266 HTTP/1.1" 200 24 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /classwork/62686745d452d11ed0b27266 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 24 	response-time:: 765.072 ms
+::1 - - [Tue, 26 Apr 2022 22:04:10 GMT] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/ 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 8.631 ms
+::1 - - [Tue, 26 Apr 2022 22:04:10 GMT] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/swagger-ui.css 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 310.307 ms
+::1 - - [Tue, 26 Apr 2022 22:04:10 GMT] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/swagger-ui-bundle.js 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 2.798 ms
+::1 - - [Tue, 26 Apr 2022 22:04:10 GMT] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/swagger-ui-init.js 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 0.670 ms
+::1 - - [Tue, 26 Apr 2022 22:04:10 GMT] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/swagger-ui-standalone-preset.js 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 4.458 ms
+::1 - - [Tue, 26 Apr 2022 22:04:13 GMT] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/favicon-32x32.png 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 0.624 ms
+::1 - - [Tue, 26 Apr 2022 22:04:22 GMT] "GET /users/getAllUsers/ HTTP/1.1" 200 602 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /users/getAllUsers/ 	 host:: localhost 	status:: 200 	 content-length:: 602 	response-time:: 323.523 ms
+::1 - - [Tue, 26 Apr 2022 22:04:51 GMT] "POST /users/getAllUsers/ HTTP/1.1" 200 268 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: POST 	 url:: /users/getAllUsers/ 	 host:: localhost 	status:: 200 	 content-length:: 268 	response-time:: 709.326 ms
+::1 - - [Tue, 26 Apr 2022 22:05:49 GMT] "GET /users/getAllUsers/ HTTP/1.1" 200 871 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /users/getAllUsers/ 	 host:: localhost 	status:: 200 	 content-length:: 871 	response-time:: 341.728 ms
+::1 - - [Tue, 26 Apr 2022 22:06:22 GMT] "GET /class/getAllClasses/ HTTP/1.1" 200 3957 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /class/getAllClasses/ 	 host:: localhost 	status:: 200 	 content-length:: 3957 	response-time:: 521.493 ms
+::1 - - [Tue, 26 Apr 2022 22:07:39 GMT] "GET /classwork/getAllClassworks/ HTTP/1.1" 200 17545 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /classwork/getAllClassworks/ 	 host:: localhost 	status:: 200 	 content-length:: 17545 	response-time:: 678.394 ms
+::1 - - [Tue, 26 Apr 2022 22:08:58 GMT] "POST /users/getAllUsers/ HTTP/1.1" 400 114 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: POST 	 url:: /users/getAllUsers/ 	 host:: localhost 	status:: 400 	 content-length:: 114 	response-time:: 489.570 ms
+::1 - - [Tue, 26 Apr 2022 22:09:00 GMT] "POST /users/getAllUsers/ HTTP/1.1" 400 114 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: POST 	 url:: /users/getAllUsers/ 	 host:: localhost 	status:: 400 	 content-length:: 114 	response-time:: 477.725 ms
+::1 - - [Tue, 26 Apr 2022 22:09:02 GMT] "POST /users/getAllUsers/ HTTP/1.1" 400 114 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: POST 	 url:: /users/getAllUsers/ 	 host:: localhost 	status:: 400 	 content-length:: 114 	response-time:: 661.448 ms
+::1 - - [Tue, 26 Apr 2022 22:09:03 GMT] "POST /users/getAllUsers/ HTTP/1.1" 400 114 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: POST 	 url:: /users/getAllUsers/ 	 host:: localhost 	status:: 400 	 content-length:: 114 	response-time:: 419.212 ms
+::1 - - [Tue, 26 Apr 2022 22:09:03 GMT] "POST /users/getAllUsers/ HTTP/1.1" 400 114 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: POST 	 url:: /users/getAllUsers/ 	 host:: localhost 	status:: 400 	 content-length:: 114 	response-time:: 413.613 ms
+::1 - - [Tue, 26 Apr 2022 22:09:05 GMT] "POST /users/getAllUsers/ HTTP/1.1" 400 114 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: POST 	 url:: /users/getAllUsers/ 	 host:: localhost 	status:: 400 	 content-length:: 114 	response-time:: 449.528 ms
+::1 - - [Tue, 26 Apr 2022 22:09:21 GMT] "POST /users/getAllUsers/ HTTP/1.1" 400 114 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: POST 	 url:: /users/getAllUsers/ 	 host:: localhost 	status:: 400 	 content-length:: 114 	response-time:: 508.740 ms
+::1 - - [Tue, 26 Apr 2022 22:09:29 GMT] "POST /users/getAllUsers/ HTTP/1.1" 400 114 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: POST 	 url:: /users/getAllUsers/ 	 host:: localhost 	status:: 400 	 content-length:: 114 	response-time:: 454.262 ms
+::1 - - [Tue, 26 Apr 2022 22:09:41 GMT] "POST /users/getAllUsers/ HTTP/1.1" 200 271 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: POST 	 url:: /users/getAllUsers/ 	 host:: localhost 	status:: 200 	 content-length:: 271 	response-time:: 477.778 ms
+::1 - - [Tue, 26 Apr 2022 22:09:51 GMT] "POST /users/getAllUsers/ HTTP/1.1" 200 271 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: POST 	 url:: /users/getAllUsers/ 	 host:: localhost 	status:: 200 	 content-length:: 271 	response-time:: 608.974 ms
+::1 - - [Tue, 26 Apr 2022 22:09:59 GMT] "POST /users/getAllUsers/ HTTP/1.1" 200 271 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: POST 	 url:: /users/getAllUsers/ 	 host:: localhost 	status:: 200 	 content-length:: 271 	response-time:: 631.980 ms
+::1 - - [Tue, 26 Apr 2022 22:10:07 GMT] "POST /users/getAllUsers/ HTTP/1.1" 200 271 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: POST 	 url:: /users/getAllUsers/ 	 host:: localhost 	status:: 200 	 content-length:: 271 	response-time:: 466.348 ms
+::1 - - [Tue, 26 Apr 2022 22:10:18 GMT] "GET /users/getAllUsers/ HTTP/1.1" 200 1959 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /users/getAllUsers/ 	 host:: localhost 	status:: 200 	 content-length:: 1959 	response-time:: 466.913 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:12:44 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3957 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3957 	response-time:: 9167.659 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:12:45 GMT] "GET /class/61dac28f7e87ea2af49d40c1 HTTP/1.1" 200 320 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61dac28f7e87ea2af49d40c1 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 320 	response-time:: 585.709 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:12:45 GMT] "PATCH /class/624a0bf75c85a00c20f045b8 HTTP/1.1" 400 34 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /class/624a0bf75c85a00c20f045b8 	 host:: 127.0.0.1 	status:: 400 	 content-length:: 34 	response-time:: 313.698 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:12:45 GMT] "DELETE /class/624a0bf75c85a00c20f045b8 HTTP/1.1" 400 34 "-" "node-superagent/3.8.3"
+method:: DELETE 	 url:: /class/624a0bf75c85a00c20f045b8 	 host:: 127.0.0.1 	status:: 400 	 content-length:: 34 	response-time:: 309.238 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:12:45 GMT] "GET /users/getAllUsers/ HTTP/1.1" 200 1959 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/getAllUsers/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 1959 	response-time:: 419.787 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:12:46 GMT] "GET /users/62677acb7da7a30021dc5d42 HTTP/1.1" 400 35 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: 127.0.0.1 	status:: 400 	 content-length:: 35 	response-time:: 409.512 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:12:46 GMT] "PATCH /users/62677acb7da7a30021dc5d42 HTTP/1.1" 400 35 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: 127.0.0.1 	status:: 400 	 content-length:: 35 	response-time:: 273.061 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:12:46 GMT] "DELETE /users/62686dae8e6b7130dcd95080 HTTP/1.1" 200 39 "-" "node-superagent/3.8.3"
+method:: DELETE 	 url:: /users/62686dae8e6b7130dcd95080 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 39 	response-time:: 596.454 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:12:47 GMT] "GET /classwork/getAllClassworks/ HTTP/1.1" 200 17545 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/getAllClassworks/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 17545 	response-time:: 947.288 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:12:48 GMT] "GET /classwork/62686745d452d11ed0b27266 HTTP/1.1" 400 38 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/62686745d452d11ed0b27266 	 host:: 127.0.0.1 	status:: 400 	 content-length:: 38 	response-time:: 602.521 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:12:48 GMT] "PATCH /classwork/62686745d452d11ed0b27266 HTTP/1.1" 400 38 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /classwork/62686745d452d11ed0b27266 	 host:: 127.0.0.1 	status:: 400 	 content-length:: 38 	response-time:: 312.809 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:12:49 GMT] "DELETE /classwork/61dafa375e71f4469051864a HTTP/1.1" 200 340 "-" "node-superagent/3.8.3"
+method:: DELETE 	 url:: /classwork/61dafa375e71f4469051864a 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 340 	response-time:: 624.272 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:16:32 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3957 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3957 	response-time:: 9426.595 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:16:33 GMT] "GET /class/61db23d8a8023735e075a53d HTTP/1.1" 200 353 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61db23d8a8023735e075a53d 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 353 	response-time:: 592.518 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:16:33 GMT] "GET /users/getAllUsers/ HTTP/1.1" 200 1687 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/getAllUsers/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 1687 	response-time:: 300.852 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:16:34 GMT] "GET /users/62677acb7da7a30021dc5d42 HTTP/1.1" 400 35 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: 127.0.0.1 	status:: 400 	 content-length:: 35 	response-time:: 290.036 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:16:34 GMT] "PATCH /class/61db23d8a8023735e075a53d HTTP/1.1" 200 19 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /class/61db23d8a8023735e075a53d 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 19 	response-time:: 642.731 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:16:34 GMT] "PATCH /users/62677acb7da7a30021dc5d42 HTTP/1.1" 400 35 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /users/62677acb7da7a30021dc5d42 	 host:: 127.0.0.1 	status:: 400 	 content-length:: 35 	response-time:: 283.930 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:16:34 GMT] "GET /classwork/getAllClassworks/ HTTP/1.1" 200 17204 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/getAllClassworks/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 17204 	response-time:: 606.474 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:16:35 GMT] "GET /classwork/626599e7da808b0020cdb74b HTTP/1.1" 200 311 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/626599e7da808b0020cdb74b 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 311 	response-time:: 299.278 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:16:35 GMT] "PATCH /classwork/626599e7da808b0020cdb74b HTTP/1.1" 200 24 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /classwork/626599e7da808b0020cdb74b 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 24 	response-time:: 627.520 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:17:43 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3979 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3979 	response-time:: 9250.277 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:17:44 GMT] "GET /class/61db23d8a8023735e075a53d HTTP/1.1" 200 375 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61db23d8a8023735e075a53d 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 375 	response-time:: 477.317 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:17:44 GMT] "GET /users/getAllUsers/ HTTP/1.1" 200 1687 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/getAllUsers/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 1687 	response-time:: 394.517 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:17:45 GMT] "PATCH /class/61db23d8a8023735e075a53d HTTP/1.1" 200 19 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /class/61db23d8a8023735e075a53d 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 19 	response-time:: 723.828 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:17:45 GMT] "GET /users/62686db78e6b7130dcd95082 HTTP/1.1" 200 271 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/62686db78e6b7130dcd95082 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 271 	response-time:: 289.698 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:17:45 GMT] "GET /classwork/getAllClassworks/ HTTP/1.1" 200 17209 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/getAllClassworks/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 17209 	response-time:: 597.055 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:17:46 GMT] "GET /classwork/626599e7da808b0020cdb74b HTTP/1.1" 200 316 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/626599e7da808b0020cdb74b 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 316 	response-time:: 350.666 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:17:46 GMT] "PATCH /users/62686db78e6b7130dcd95082 HTTP/1.1" 400 140 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /users/62686db78e6b7130dcd95082 	 host:: 127.0.0.1 	status:: 400 	 content-length:: 140 	response-time:: 1266.178 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:17:47 GMT] "PATCH /classwork/626599e7da808b0020cdb74b HTTP/1.1" 200 24 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /classwork/626599e7da808b0020cdb74b 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 24 	response-time:: 872.096 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:18:25 GMT] "GET /class/getAllClasses HTTP/1.1" 200 3979 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/getAllClasses 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 3979 	response-time:: 4125.078 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:18:26 GMT] "GET /class/61db23d8a8023735e075a53d HTTP/1.1" 200 375 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /class/61db23d8a8023735e075a53d 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 375 	response-time:: 594.798 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:18:26 GMT] "GET /users/getAllUsers/ HTTP/1.1" 200 1687 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/getAllUsers/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 1687 	response-time:: 286.304 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:18:26 GMT] "PATCH /class/61db23d8a8023735e075a53d HTTP/1.1" 200 19 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /class/61db23d8a8023735e075a53d 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 19 	response-time:: 598.907 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:18:26 GMT] "GET /users/62686db78e6b7130dcd95082 HTTP/1.1" 200 271 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /users/62686db78e6b7130dcd95082 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 271 	response-time:: 296.339 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:18:27 GMT] "GET /classwork/getAllClassworks/ HTTP/1.1" 200 17209 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/getAllClassworks/ 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 17209 	response-time:: 572.920 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:18:27 GMT] "GET /classwork/626599e7da808b0020cdb74b HTTP/1.1" 200 316 "-" "node-superagent/3.8.3"
+method:: GET 	 url:: /classwork/626599e7da808b0020cdb74b 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 316 	response-time:: 255.720 ms
+::ffff:127.0.0.1 - - [Tue, 26 Apr 2022 22:18:28 GMT] "PATCH /classwork/626599e7da808b0020cdb74b HTTP/1.1" 200 24 "-" "node-superagent/3.8.3"
+method:: PATCH 	 url:: /classwork/626599e7da808b0020cdb74b 	 host:: 127.0.0.1 	status:: 200 	 content-length:: 24 	response-time:: 662.246 ms

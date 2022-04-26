@@ -54,7 +54,7 @@ app.use('/classwork', classworkRouter)
 
 //listening to the port
 const PORT = process.env.PORT || 5000;
-server.listen(PORT, ()=> console.log(`Server has started on port ${PORT}`));
+module.exports=server.listen(PORT, ()=> console.log(`Server has started on port ${PORT}`));
 console.log(`http://localhost:${PORT}/`);
 
 //connect to mongodb database
@@ -94,3 +94,7 @@ app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 // 	res.status(404).sendFile(__dirname + "/error/404.html")
 // })
 
+
+app.get("/api/welcome", (req,res) => {
+    res.status(200).send({message: "Welcome to the MEN-REST-API"});
+  }); 
