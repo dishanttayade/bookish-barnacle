@@ -1,0 +1,4 @@
+::ffff:127.0.0.1 - - [Thu, 14 Apr 2022 19:09:01 GMT] "GET /getAllClasses/ HTTP/1.1" 404 153 "-" "-"
+method:: GET 	 url:: /getAllClasses/ 	 host:: localhost 	status:: 404 	 content-length:: 153 	response-time:: 3.660 ms
+::ffff:127.0.0.1 - - [Thu, 14 Apr 2022 19:09:26 GMT] "GET /getAllClasses/ HTTP/1.1" 404 153 "-" "-"
+method:: GET 	 url:: /getAllClasses/ 	 host:: localhost 	status:: 404 	 content-length:: 153 	response-time:: 1.620 ms

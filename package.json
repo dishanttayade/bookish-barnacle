@@ -1,0 +1,25 @@
+{
+  "name": "bookish-barnacle",
+  "version": "1.0.0",
+  "description": "- Dishant Tayade `S20190010175`\r - Swathi Kasoju `S20190010087`\r - Hardik Sharma `S20190010062`\r - Raghav Garg `S20190010148`\r - Khushi Pathak `S20190010091`",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "backend": "cd server && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dishanttayade/bookish-barnacle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dishanttayade/bookish-barnacle/issues"
+  },
+  "homepage": "https://github.com/dishanttayade/bookish-barnacle#readme",
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  }
+}

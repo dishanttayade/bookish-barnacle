@@ -1,0 +1,16 @@
+::1 - - [Thu, 21 Apr 2022 13:52:39 GMT] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: / 	 host:: localhost 	status:: 404 	 content-length:: 139 	response-time:: 3.397 ms
+::1 - - [Thu, 21 Apr 2022 13:52:44 GMT] "GET /api-docs HTTP/1.1" 301 183 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs 	 host:: localhost 	status:: 301 	 content-length:: 183 	response-time:: 2.089 ms
+::1 - - [Thu, 21 Apr 2022 13:52:44 GMT] "GET /api-docs/ HTTP/1.1" 200 3102 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/ 	 host:: localhost 	status:: 200 	 content-length:: 3102 	response-time:: 3.180 ms
+::1 - - [Thu, 21 Apr 2022 13:52:44 GMT] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 15719 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/swagger-ui-init.js 	 host:: localhost 	status:: 200 	 content-length:: 15719 	response-time:: 0.473 ms
+::1 - - [Thu, 21 Apr 2022 13:52:44 GMT] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 143980 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/swagger-ui.css 	 host:: localhost 	status:: 200 	 content-length:: 143980 	response-time:: 9.832 ms
+::1 - - [Thu, 21 Apr 2022 13:52:44 GMT] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 339540 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/swagger-ui-standalone-preset.js 	 host:: localhost 	status:: 200 	 content-length:: 339540 	response-time:: 7.457 ms
+::1 - - [Thu, 21 Apr 2022 13:52:44 GMT] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1095130 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/swagger-ui-bundle.js 	 host:: localhost 	status:: 200 	 content-length:: 1095130 	response-time:: 9.417 ms
+::1 - - [Thu, 21 Apr 2022 13:52:44 GMT] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /api-docs/favicon-32x32.png 	 host:: localhost 	status:: 200 	 content-length:: 628 	response-time:: 0.948 ms
