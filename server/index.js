@@ -38,9 +38,9 @@ morgan.token('host', function (req, res) {
 })
 
 // app.use(morgan('combined'))
-let logsinfo = fsr.getStream({ filename: "./logfiles/classroomlog-%DATE%.log", frequency: "60m", verbose: true, date_format: "YYYY-MM-DD" });
-app.use(morgan({ stream: logsinfo }))
-app.use(morgan('method:: :method \t url:: :url \t host:: :host \tstatus:: :status \t content-length:: :res[content-length] \tresponse-time:: :response-time ms', { stream: logsinfo }));
+// let logsinfo = fsr.getStream({ filename: "./logfiles/classroomlog-%DATE%.log", frequency: "60m", verbose: true, date_format: "YYYY-MM-DD" });
+// app.use(morgan({ stream: logsinfo }))
+// app.use(morgan('method:: :method \t url:: :url \t host:: :host \tstatus:: :status \t content-length:: :res[content-length] \tresponse-time:: :response-time ms', { stream: logsinfo }));
 
 
 //including routers
