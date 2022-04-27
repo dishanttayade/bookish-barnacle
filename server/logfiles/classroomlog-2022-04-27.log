@@ -504,3 +504,7 @@ method:: GET 	 url:: /classwork/class/get/6268b1acb40ac6529c2671e9 	 host:: loca
 method:: GET 	 url:: /users?key=D73373D9B4ED6FEC5B8B2DAF6WA929B1C7D14CDC88B196EBDCCEA77AFF7BB9 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 237.142 ms
 ::1 - - [Wed, 27 Apr 2022 03:00:56 GMT] "GET /users?key=D73373D9B4ED6FEC5B8B2DAF6WA929B1C7D14CDC88B196EBDCCEA77AFF7BB9 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
 method:: GET 	 url:: /users?key=D73373D9B4ED6FEC5B8B2DAF6WA929B1C7D14CDC88B196EBDCCEA77AFF7BB9 	 host:: localhost 	status:: 304 	 content-length:: - 	response-time:: 255.097 ms
+::1 - - [Wed, 27 Apr 2022 03:12:47 GMT] "GET / HTTP/1.1" 200 16 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: / 	 host:: localhost 	status:: 200 	 content-length:: 16 	response-time:: 5.960 ms
+::1 - - [Wed, 27 Apr 2022 03:12:47 GMT] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+method:: GET 	 url:: /favicon.ico 	 host:: localhost 	status:: 404 	 content-length:: 150 	response-time:: 2.649 ms
