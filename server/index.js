@@ -51,7 +51,7 @@ app.use('/users', userRouter)
 app.use('/class', classRouter)
 app.use('/classwork', classworkRouter)
 
-app.get('/',(req,res)=>{res.send('Hello from cloud')})
+app.get('/',(req,res)=>{res.send('Hello from cloud')});
 
 //listening to the port
 const PORT = process.env.PORT || 5000;
