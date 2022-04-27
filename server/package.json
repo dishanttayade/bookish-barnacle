@@ -8,7 +8,7 @@
     "npm": "8.5.0"
   },
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "mocha test/**/*.spec.js",
     "docker-build-server": "NPM_CONFIG_PRODUCTION=false cd server && npm install",
     "docker-start-server": "npm start"
