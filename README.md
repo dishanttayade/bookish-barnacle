@@ -21,11 +21,11 @@
 
 - Application Links
     - Frontend
-        `http://localhost:3000/`
+        `http://3.234.226.57:3000/`
     - Backend
-        `http://localhost:5000/`
+        `http://3.234.226.57:5000/`
     - Swagger 
-        `http://localhost:5000/api-docs/`
+        `http://3.234.226.57:5000/api-docs/`
 
 - Github links
     - https://github.com/dishanttayade/bookish-barnacle.git

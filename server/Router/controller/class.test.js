@@ -4,7 +4,7 @@ const classController = require('../controller/classController');
 import fetch from "node-fetch";
 
 // const http = require('http')
-// const url = `http://localhost:5000/getAllClasses/`;
+// const url = `http://3.234.226.57:5000/getAllClasses/`;
 // const check = http.get(url, res => {
 //   let data = '';
 //   res.on('data', chunk => {
@@ -19,7 +19,7 @@ import fetch from "node-fetch";
 // })
 
 
-const check = fetch(`http://localhost:${process.env.PORT}/getAllClasses/`,{
+const check = fetch(`http://3.234.226.57:${process.env.PORT}/getAllClasses/`,{
     method: 'GET'
 });
 

@@ -56,7 +56,7 @@ app.get('/',(req,res)=>{res.send('Hello from cloud')});
 //listening to the port
 const PORT = process.env.PORT || 5000;
 module.exports=server.listen(PORT, ()=> console.log(`Server has started on port ${PORT}`));
-console.log(`http://localhost:${PORT}/`);
+console.log(`http://3.234.226.57:${PORT}/`);
 
 //connect to mongodb database
 const URI = `mongodb+srv://${process.env.USER}:${process.env.PASS}@cluster0.hikpg.mongodb.net/classroom?retryWrites=true&w=majorit`;
